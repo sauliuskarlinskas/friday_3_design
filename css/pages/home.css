@@ -1,0 +1,61 @@
+@import '../base/base.css';
+@import '../base/layout.css';
+@import '../components/btn.css';
+
+
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+   color: white;
+   
+}
+.logo {
+   height: 30px;
+
+}
+.link {
+    font-size: 10px;
+   text-decoration: none;
+   color: white;
+   margin-left: 30px;
+    
+}
+.link:hover {
+    text-decoration: underline;
+}
+.main-hero {
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.left-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 35%;
+    letter-spacing: 1px;
+    
+}
+.main-image {
+    width: 60%;
+}
+.welcome-title {
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.main-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.description {
+    font-size: 7px;
+    color: rgb(255, 255, 255, 0.7);
+    
+}
+

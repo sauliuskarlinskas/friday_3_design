@@ -1,0 +1,28 @@
+.buton {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.btn-main {
+    color: black;
+    background-color: white;
+    border: 1px solid #74C69D;
+}
+.btn-main:hover {
+    background-color: black;
+    color: white;
+}
+.btn-second {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+.btn-second:hover {
+    background-color: white;
+    color: black;
+}

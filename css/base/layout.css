@@ -1,0 +1,46 @@
+.container {
+    font-family: sans-serif;
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.main-header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partners {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.column-name {
+    color: #74C69D;
+    text-transform: uppercase;
+    font-size: 8px;
+    letter-spacing: 2px;
+}
+.partners-title {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.partners-description {
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.partners-logo {
+    width: 100%;
+    padding-bottom: 20px;
+}
+@media (max-width:800px) {
+    .container > bg-main > .main-hero  {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
