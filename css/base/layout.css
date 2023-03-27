@@ -20,16 +20,16 @@
 .column-name {
     color: #74C69D;
     text-transform: uppercase;
-    font-size: 8px;
+    font-size: 15px;
     letter-spacing: 2px;
 }
 .partners-title {
     text-transform: capitalize;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 30px;
 }
 .partners-description {
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     padding-bottom: 20px;
 }

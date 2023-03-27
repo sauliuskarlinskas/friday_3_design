@@ -1,11 +1,11 @@
 .buton {
     font-family: sans-serif;
     text-align: center;
-    padding: 7px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 15px;
     border-radius: 5px;
 }
 .btn-main {
