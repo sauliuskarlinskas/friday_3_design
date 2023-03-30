@@ -1,61 +1,84 @@
 @import '../base/base.css';
 @import '../base/layout.css';
 @import '../components/btn.css';
+@import '../components/hero.css';
 
-
-
-.home-page {
+.main-header {
+    width: 100%;
+    height: 100px;
     display: flex;
-    flex-direction: column;
-   color: white;
-   
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 .logo {
-   height: 40px;
-
+    height: 50px;
 }
-.link {
+.links {
+    display: flex;
+    gap: 40px;
+}
+.link{
+    color: white;
+    text-decoration: none;
     font-size: 20px;
-   text-decoration: none;
-   color: white;
-   margin-left: 30px;
-    
 }
 .link:hover {
     text-decoration: underline;
 }
-.main-hero {
+
+@media (max-width:1000px) {
+    .hero-text, 
+    .main-image {
+        width: 100%;
+    }
+}
+.title-welcome {
+    color: white;
     
+}
+.partners-column {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
-.left-column {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 15px;
-    width: 35%;
-    letter-spacing: 1px;
-    
-}
-.main-image {
-    width: 60%;
-}
-.welcome-title {
+.title-name {
     text-transform: uppercase;
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 2px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #74C69D;
+} 
+.title-welcome {
+    color: white;
 }
-.main-title {
+.title {
     font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
     font-size: 30px;
 }
 .description {
-    font-size: 10px;
-    color: rgb(255, 255, 255, 0.7);
-    
+    font-size: 15px;
 }
+.partners-logos {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
 
+} 
+@media (max-width:900px) {
+    .logos {
+        width: 25%;
+    }
+}
+@media (max-width:700px) {
+    .logos {
+        width: 100%;
+    }
+}
